@@ -1,0 +1,31 @@
+/* to remove default margin and padding */
+*{
+      margin: 0;
+      padding: 0;
+}
+/* Defaults styles */
+a{
+      text-decoration: none;
+}
+
+ul{
+      list-style: none;
+}
+
+/* Navigation bar */
+
+header{
+      margin: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 900;
+}
+
+.nav-items{
+      display: flex;
+}
+
+.nav-item{
+      margin-right: 1rem;
+}
