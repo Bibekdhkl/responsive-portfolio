@@ -1,48 +1,91 @@
 <!DOCTYPE html>
 <!-- we are writing code in english language so we write lang=en -->
 <html lang="en">
-      <head>
-            <!-- Meta Data -->
-            <meta charset="UTF-8">
-            <!-- This viewport makes the site responsive -->
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <!-- This below meta data are for SEO(Search Engine Optimization) -->
-            <meta name="description" content="Bibek's Portfolio">
-            <meta name="keywords" content="Bibek, Portfolio, Web Development">
-            <meta name="author" content="Bibek">
-            
-            <!-- This below meta data is for IE Browser -->
-            <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-            <!-- Flaticon Icon -->
-            <link rel="shortcut icon" href="boy.png" type="image/x-icon">
-            
+<head>
+      <!-- Meta Data -->
+      <meta charset="UTF-8">
+      <!-- This viewport makes the site responsive -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- This below meta data are for SEO(Search Engine Optimization) -->
+      <meta name="description" content="Bibek's Portfolio">
+      <meta name="keywords" content="Bibek, Portfolio, Web Development">
+      <meta name="author" content="Bibek">
 
-            <!-- Title of the Page -->
-            <title>Bibek's Portfolio</title>
+      <!-- This below meta data is for IE Browser -->
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-            <!-- External CSS File -->
-            <link rel="stylesheet" type="text/css" href="style.css">
-            <!-- type is used to define what is used in this linking -->
-      </head>
-      <body>
-            <!-- Header -->
-            <header class="navigation-bar">
-                  <!-- Left-side -->
-                  <div>
-                        <a href="#" class="nav-logo">Bibek</a>
+      <!-- Flaticon Icon -->
+      <link rel="shortcut icon" href="boy.png" type="image/x-icon">
+
+
+      <!-- Title of the Page -->
+      <title>Bibek's Portfolio</title>
+
+      <!-- External CSS File -->
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <!-- type is used to define what is used in this linking -->
+
+
+      <!-- Poppins Code -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+      <!-- Ctrl + ? -> Automatic comment -->
+
+
+      <!-- Adding fontawesome CDN-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+      <!-- Header -->
+      <header class="navigation-bar">
+            <!-- Left-side -->
+            <div>
+                  <a href="#" class="nav-logo">Bibek</a>
+            </div>
+            <!-- Right Side -->
+            <div>
+                  <ul class="nav-items">
+                        <li class="nav-item"><a href="">About Me</a></li>
+                        <li class="nav-item"><a href=""> Skills</a></li>
+                        <li class="nav-item"><a href="">Projects</a></li>
+                        <li class="nav-item"><a href="">Experience</a></li>
+                        <li class="nav-item"><a href="">Contact Me</a></li>
+                  </ul>
+            </div>
+
+      </header>
+      <hr>
+      <!-- Main -->
+      <main>
+            <!-- div.about-me then press enter, it will create a class with div-->
+            <div class="about-me">
+                  <!-- Left side design -->
+                  <div class="about-me-text">
+                        <h1>Hi,<br>I'am <span class="home-text-color"> Bibek</span><br>I'm a Web Developer</h1>
+
+                        <!-- making a button below the text -->
+                        <a href="mailto:bibekdh2016@gmail.com" class="contact-button" target="_blank">Contact</a>
                   </div>
-                  <!-- Right Side -->
-                   <div >
-                        <ul class="nav-items">
-                              <li class="nav-item"><a href="">About Me</a></li>
-                              <li class="nav-item"><a href=""> Skills</a></li>
-                              <li class="nav-item"><a href="">Projects</a></li>
-                              <li class="nav-item"><a href="">Experience</a></li>
-                              <li class="nav-item"><a href="">Contact Me</a></li>
-                        </ul>
-                   </div>
-            </header>
+                  <div class="my-socials">
+                        <a href="https://github.com" class="social-logo" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://facebook.com" class="social-logo" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com" class="social-logo" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
 
-      </body>
+                  <div class="my-profile-image">
+                        <img src="bibekdhakal.png">
+                  </div>
+            </div>
+
+
+
+      </main>
+</body>
+
 </html>
